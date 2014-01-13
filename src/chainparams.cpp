@@ -44,16 +44,16 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1388902169;
+        genesis.nTime    = 1389541878;
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 3128669;
+        genesis.nNonce   = 207878;
 
         //// debug print
        hashGenesisBlock = genesis.GetHash();
      //  while (hashGenesisBlock > bnProofOfWorkLimit.getuint256()){
      //  if (++genesis.nNonce==0) break;
      // hashGenesisBlock = genesis.GetHash();
-     //}
+    // }
 
 
         printf("%s\n", hashGenesisBlock.ToString().c_str());
@@ -62,11 +62,10 @@ public:
         genesis.print();
 
 
-        assert(hashGenesisBlock == uint256("0x00000e3f50955079fe814b61edd383fbad71ee41362869a7b72c635fbda8050e"));
+        assert(hashGenesisBlock == uint256("0x000007136984225e1b99105f0c5b7a204de8ff1c33c95693845c2618f191f429"));
         assert(genesis.hashMerkleRoot == uint256("0xad7d1cacc33f2e044deeab430ca6f59c3cf92351298ff94c487dfdd2d7884e9d"));
 
-        vSeeds.push_back(CDNSSeedData("pltpool.plt.co.in", "pltpool.plt.co.in"));
-        vSeeds.push_back(CDNSSeedData("ptc.asuscomm.com", "ptc.asuscomm.com"));
+        vSeeds.push_back(CDNSSeedData("ptcoin.asuscomm.com", "ptcoin.asuscomm.com"));
 
 
         base58Prefixes[PUBKEY_ADDRESS] = 55;

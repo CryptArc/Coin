@@ -1,12 +1,12 @@
 TEMPLATE = app
-TARGET = platinum-qt
+TARGET = platinum-qt32
 macx:TARGET = "Platinum-Qt"
-VERSION = 0.9.0
+VERSION = 1.2.6
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE USE_IPV6 BOOST_THREAD_PROVIDES_GENERIC_SHARED_MUTEX_ON_WIN __NO_SYSTEM_INCLUDES
-CONFIG += no_include_pwd
+CONFIG += no_include_pwd USE_UPNP=-
 CONFIG += thread
 
 #uncomment the following section to enable building on windows:
@@ -22,8 +22,8 @@ CONFIG += thread
 #BDB_LIB_PATH=c:/deps/db/build_unix
 #OPENSSL_INCLUDE_PATH=/usr/include/openssl
 #OPENSSL_LIB_PATH=/usr/local/ssl/lib
-#MINIUPNPC_LIB_PATH=c:/deps/miniupnpc
-#MINIUPNPC_INCLUDE_PATH=c:/deps
+MINIUPNPC_LIB_PATH=/home/neo/deps/miniupnpc
+MINIUPNPC_INCLUDE_PATH=/home/neo/deps/
 
 OBJECTS_DIR = build
 MOC_DIR = build

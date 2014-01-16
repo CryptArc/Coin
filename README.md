@@ -19,6 +19,8 @@ cd Coin/src
 
 mkdir obj
 
+make -f makefile.unix
+
 cd ..
 
 qmake
@@ -26,12 +28,14 @@ qmake
 make
 
 if you get the error about libleveldb.a then 
+
 cd leveldb
+
 make -f Makefile libmemenv.a libleveldb.a
+
 cd ..
+
 make
-
-
 
 
 launch Platinum-PT 

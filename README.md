@@ -25,7 +25,9 @@ at this point you have the platinumd compiled and sitting in your src folder,
 you could run it 
 
 strip platinumd 
+
 ./platinumd
+
 nano ~/.platinum/platinum.conf
 
 rpcuser=username
@@ -60,5 +62,7 @@ make
 launch Platinum-PT 
 
 donate to the Platinum Developers
+
 BTC:1BYPqPS8TUEC987FK2Rr29daYtRxZU63SQ
+
 PT:PNQ2EyxdmUtJD3VDLpqsdEA5Wk1zEyTQwD

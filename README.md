@@ -19,7 +19,26 @@ cd Coin/src
 
 mkdir obj
 
-make -f makefile.unix
+make -f makefile.unix "USE_UPNP=-"
+
+at this point you have the platinumd compiled and sitting in your src folder,
+you could run it 
+
+strip platinumd 
+./platinumd
+nano ~/.platinum/platinum.conf
+
+rpcuser=username
+
+rpcpassword=passwordgoeshere
+
+rpcport=10126
+
+ctl-o , ctl-x
+
+./platinumd
+
+Or go onto make a gui wallet .
 
 cd ..
 

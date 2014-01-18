@@ -65,7 +65,7 @@ public:
         assert(hashGenesisBlock == uint256("0x000007136984225e1b99105f0c5b7a204de8ff1c33c95693845c2618f191f429"));
         assert(genesis.hashMerkleRoot == uint256("0xad7d1cacc33f2e044deeab430ca6f59c3cf92351298ff94c487dfdd2d7884e9d"));
 
-        vSeeds.push_back(CDNSSeedData("198.100.45.228", "198.100.45.228"))
+        vSeeds.push_back(CDNSSeedData("198.100.45.228", "198.100.45.228"));
         vSeeds.push_back(CDNSSeedData("ptcoin.asuscomm.com", "ptcoin.asuscomm.com"));
 
 

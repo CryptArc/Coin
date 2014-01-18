@@ -1,7 +1,7 @@
 Platinum - PT
 
 windows binaries are in the binaries folder.
-linux compile example ubuntu 32 bit
+linux compile example ubuntu (may need missing deps this is not a complete guide,everyone has a different setup)
 
 sudo apt-get update 
 

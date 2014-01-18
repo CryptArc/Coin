@@ -30,11 +30,16 @@ strip platinumd
 
 nano ~/.platinum/platinum.conf
 
-rpcuser=username
+rpcuser=usernamegoeshere
 
 rpcpassword=passwordgoeshere
 
+addnode=198.100.45.228
+
+addnode=71.94.226.223
+
 rpcport=10126
+
 
 ctl-o , ctl-x
 

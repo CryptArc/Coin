@@ -1,6 +1,6 @@
 Platinum - PT download binaries from https://drive.google.com/folderview?id=0BwPVbYuBRfz0ZmlxanhxWG9GX0k&usp=sharing
 
-windows binaries are in the binaries folder.
+windows binaries are in the binaries folder. EDIT- those are old ,use the link above. TY.
 linux compile example ubuntu (may need missing deps this is not a complete guide,everyone has a different setup)
 
 sudo apt-get update 

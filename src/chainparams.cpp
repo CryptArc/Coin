@@ -67,7 +67,7 @@ public:
 
         vSeeds.push_back(CDNSSeedData("198.100.45.228", "198.100.45.228"));
         vSeeds.push_back(CDNSSeedData("ptcoin.asuscomm.com", "ptcoin.asuscomm.com"));
-
+        vSeeds.push_back(CDNSSeedData("platinumcrypto.com", "platinumcrypto.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 55;
         base58Prefixes[SCRIPT_ADDRESS] = 30;

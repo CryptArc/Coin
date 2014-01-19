@@ -1,4 +1,4 @@
-Platinum - PT
+Platinum - PT download binaries from https://drive.google.com/folderview?id=0BwPVbYuBRfz0ZmlxanhxWG9GX0k&usp=sharing
 
 windows binaries are in the binaries folder.
 linux compile example ubuntu (may need missing deps this is not a complete guide,everyone has a different setup)

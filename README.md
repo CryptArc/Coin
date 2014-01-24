@@ -49,19 +49,21 @@ Or go onto make a gui wallet .
 
 cd ..
 
-qmake
+qmake-qt4 platinum-qt.pro "USE_UPNP=-"
 
-make
+make -j2
 
 if you get the error about libleveldb.a then 
 
-cd leveldb
+cd src/leveldb
 
 make -f Makefile libmemenv.a libleveldb.a
 
 cd ..
 
-make
+cd ..
+
+make -j2
 
 
 launch Platinum-PT 

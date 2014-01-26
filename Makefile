@@ -16,7 +16,7 @@ CXXFLAGS      = -m64 -pipe -fstack-protector-all -D_FORTIFY_SOURCE=2 -O2 -D_REEN
 INCPATH       = -I/usr/share/qt4/mkspecs/linux-g++-64 -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtGui -I/usr/include/qt4 -Isrc -Isrc/json -Isrc/qt -I../../deps -Isrc/leveldb/include -Isrc/leveldb/helpers -Ibuild -Ibuild
 LINK          = g++
 LFLAGS        = -m64 -fstack-protector-all -Wl,-O1
-LIBS          = $(SUBLIBS)  -L/usr/lib/x86_64-linux-gnu -L/home/neo/deps/miniupnpc -lminiupnpc /home/neo/ptc/Coin/src/leveldb/libleveldb.a /home/neo/ptc/Coin/src/leveldb/libmemenv.a -lrt -lssl -lcrypto -ldb_cxx -lboost_system -lboost_filesystem -lboost_program_options -lboost_thread -lpthread -lQtGui -lQtNetwork -lQtCore 
+LIBS          = $(SUBLIBS)  -L/usr/lib/x86_64-linux-gnu -lrt -lssl -lcrypto -ldb_cxx -lboost_system -lboost_filesystem -lboost_program_options -lboost_thread -lpthread -lQtGui -lQtNetwork -lQtCore 
 AR            = ar cqs
 RANLIB        = 
 QMAKE         = /usr/bin/qmake-qt4

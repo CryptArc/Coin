@@ -22,8 +22,8 @@ CONFIG += thread
 #BDB_LIB_PATH=c:/deps/db/build_unix
 #OPENSSL_INCLUDE_PATH=/usr/include/openssl
 #OPENSSL_LIB_PATH=/usr/local/ssl/lib
-#MINIUPNPC_LIB_PATH=/home/neo/deps/miniupnpc
-#MINIUPNPC_INCLUDE_PATH=/home/neo/deps/
+#MINIUPNPC_LIB_PATH=
+#MINIUPNPC_INCLUDE_PATH=
 
 OBJECTS_DIR = build
 MOC_DIR = build

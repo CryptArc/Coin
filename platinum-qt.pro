@@ -357,7 +357,8 @@ isEmpty(BOOST_THREAD_LIB_SUFFIX) {
 }
 
 isEmpty(BDB_LIB_PATH) {
-    macx:BDB_LIB_PATH = /opt/local/lib/db48
+    #macx:BDB_LIB_PATH = /opt/local/lib/db48
+    macx:BDB_LIB_PATH = /usr/local/Cellar/berkeley-db4/4.8.30/lib/
 }
 
 isEmpty(BDB_LIB_SUFFIX) {
@@ -365,16 +366,28 @@ isEmpty(BDB_LIB_SUFFIX) {
 }
 
 isEmpty(BDB_INCLUDE_PATH) {
-    macx:BDB_INCLUDE_PATH = /opt/local/include/db48
+    #macx:BDB_INCLUDE_PATH = /opt/local/include/db48
+    macx:BDB_INCLUDE_PATH = /usr/local/Cellar/berkeley-db4/4.8.30/include/
 }
 
 isEmpty(BOOST_LIB_PATH) {
-    macx:BOOST_LIB_PATH = /opt/local/lib
+    #macx:BOOST_LIB_PATH = /opt/local/lib
+    macx:BOOST_LIB_PATH = /usr/local/Cellar/boost/1.55.0/lib/
 }
 
 isEmpty(BOOST_INCLUDE_PATH) {
-    macx:BOOST_INCLUDE_PATH = /opt/local/include
+    #macx:BOOST_INCLUDE_PATH = /opt/local/include
+    macx:BOOST_LIB_PATH = /usr/local/Cellar/boost/1.55.0/include/
 }
+
+isEmpty(OPENSSL_INCLUDE_PATH) {
+    macx:OPENSSL_INCLUDE_PATH = /usr/local/Cellar/openssl/1.0.1e/include/
+}
+
+isEmpty(OPENSSL_LIB_PATH) {
+    macx:OPENSSL_LIB_PATH = /usr/local/Cellar/openssl/1.0.1e/lib/
+}
+
 
 win32:DEFINES += WIN32 WIN32_LEAN_AND_MEAN
 win32:RC_FILE = src/qt/res/bitcoin-qt.rc

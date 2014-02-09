@@ -1,6 +1,8 @@
-Platinum - PT download binaries from https://drive.google.com/folderview?id=0BwPVbYuBRfz0ZmlxanhxWG9GX0k&usp=sharing
+Platinum Coin - PT download binaries for Linux , Windows & Mac OSX
 
-windows binaries are in the binaries folder. EDIT- those are old ,use the link above. TY.
+https://www.dropbox.com/sh/kuwpf17rdz2bs14/1ct19kef1I 
+
+
 linux compile example ubuntu (may need missing deps this is not a complete guide,everyone has a different setup)
 
 sudo apt-get update 
@@ -36,8 +38,6 @@ rpcpassword=passwordgoeshere
 
 addnode=198.100.45.228
 
-addnode=71.94.226.223
-
 rpcport=10126
 
 
@@ -72,4 +72,4 @@ donate to the Platinum Developers
 
 BTC:1BYPqPS8TUEC987FK2Rr29daYtRxZU63SQ
 
-PT:PNQ2EyxdmUtJD3VDLpqsdEA5Wk1zEyTQwD
+PT:PUwH4AhNFhwEHTmQRsj1tR9WKM35e8iYy4

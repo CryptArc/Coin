@@ -1,7 +1,4 @@
-Platinum Coin - PT download binaries for Linux , Windows & Mac OSX
-
-https://www.dropbox.com/sh/kuwpf17rdz2bs14/1ct19kef1I 
-
+Platinum Coin - PT 
 
 linux compile example ubuntu (may need missing deps this is not a complete guide,everyone has a different setup)
 

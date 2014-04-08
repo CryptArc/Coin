@@ -30,7 +30,7 @@ public:
         nDefaultPort = 10125;
         nRPCPort = 10126;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
-        nSubsidyHalvingInterval = 269200;
+        nSubsidyHalvingInterval = 300000;
 
 
         const char* pszTimestamp = "Platinum Crypto 2014";

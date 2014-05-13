@@ -6,7 +6,7 @@ sudo apt-get update
 
 sudo apt-get upgrade
 
-sudo apt-get install g++ libboost-all-dev qt4-qmake libqt4-dev build-essential libssl-dev libdb5.1++-dev git libqrencode-dev libqtgui4 libboost-all-dev libdb5.1-dev  libglib2.0-dev libminiupnpc-dev
+sudo apt-get install g++  qt4-qmake libqt4-dev build-essential libssl-dev libdb5.1++-dev git libqrencode-dev libqtgui4 libboost-all-dev libdb5.1-dev  libglib2.0-dev libminiupnpc-dev libboost1.53-all-dev 
 
 mkdir gits
 

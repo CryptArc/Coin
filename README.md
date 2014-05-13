@@ -6,7 +6,7 @@ sudo apt-get update
 
 sudo apt-get upgrade
 
-sudo apt-get install g++ libboost-all-dev qt4-qmake libqt4-dev build-essential libssl-dev libdb5.1++-dev git libqrencode-dev libqtgui4 libboost-all-dev libdb5.1-dev  libglib2.0-dev
+sudo apt-get install g++ libboost-all-dev qt4-qmake libqt4-dev build-essential libssl-dev libdb5.1++-dev git libqrencode-dev libqtgui4 libboost-all-dev libdb5.1-dev  libglib2.0-dev libminiupnpc-dev
 
 mkdir gits
 
@@ -32,8 +32,6 @@ nano ~/.platinum/platinum.conf
 rpcuser=usernamegoeshere
 
 rpcpassword=passwordgoeshere
-
-addnode=198.100.45.228
 
 rpcport=10126
 

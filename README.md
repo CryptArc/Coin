@@ -61,10 +61,4 @@ cd ..
 make -j2
 
 
-launch Platinum-PT 
-
-donate to the Platinum Developers
-
-BTC:1BYPqPS8TUEC987FK2Rr29daYtRxZU63SQ
-
-PT:PUwH4AhNFhwEHTmQRsj1tR9WKM35e8iYy4
+launch Platinum

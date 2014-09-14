@@ -1,6 +1,6 @@
 Platinum Coin - PT 
 
-we have moved to bitbucket for hosting our source , links on PlatinumCrypto.COM
+we are moving to bitbucket for hosting our source , links on PlatinumCrypto.COM
 
 linux compile example ubuntu (may need missing deps this is not a complete guide,everyone has a different setup)
 

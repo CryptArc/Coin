@@ -921,21 +921,6 @@ public:
             vch.insert(it, first, last);
     }
 
-#if !defined(_MSC_VER) || _MSC_VER >= 1300
-    void insert(iterator it, const char* first, const char* last)
-    {
-        assert(last - first >= 0);
-        if (it == vch.begin() + nReadPos && (unsigned int)(last - first) <= nReadPos)
-        {
-            // special case for inserting at the front when there's room
-            nReadPos -= (last - first);
-            memcpy(&vch[nReadPos], &first[0], last - first);
-        }
-        else
-            vch.insert(it, first, last);
-    }
-#endif
-
     iterator erase(iterator it)
     {
         if (it == vch.begin() + nReadPos)
@@ -1102,15 +1087,6 @@ public:
         CSerializeData().swap(vch);
     }
 };
-
-
-
-
-
-
-
-
-
 
 /** RAII wrapper for FILE*.
  *

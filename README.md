@@ -1,6 +1,6 @@
-Platinum Coin - PT 
+Platinum BitCoin - PT 
 
-we are moving to bitbucket for hosting our source , links on PlatinumCrypto.COM
+links on PlatinumCrypto.COM
 
 linux compile example ubuntu (may need missing deps this is not a complete guide,everyone has a different setup)
 
@@ -16,51 +16,22 @@ cd gits
 
 git clone https://github.com/PlatinumTokenCrypto/Coin.git
 
-cd Coin/src
+cd Coin
 
-mkdir obj
+qmake platinum-qt.pro 
 
-make -f makefile.unix "USE_UPNP=-"
+make
 
-at this point you have the platinumd compiled and sitting in your src folder,
-you could run it 
-
-strip platinumd 
-
-./platinumd
 
 nano ~/.platinum/platinum.conf
 
 rpcuser=usernamegoeshere
-
 rpcpassword=passwordgoeshere
-
 rpcport=10126
-
+server=1
+listen=1
+daemon=1
 
 ctl-o , ctl-x
-
-./platinumd
-
-Or go onto make a gui wallet .
-
-cd ..
-
-qmake-qt4 platinum-qt.pro "USE_UPNP=-"
-
-make -j2
-
-if you get the error about libleveldb.a then 
-
-cd src/leveldb
-
-make -f Makefile libmemenv.a libleveldb.a
-
-cd ..
-
-cd ..
-
-make -j2
-
-
-launch Platinum
+run Platinum , goto Platinumcrypto.com and explore!
+Welcome to the community !!

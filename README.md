@@ -14,7 +14,7 @@ mkdir gits
 
 cd gits
 
-git clone https://github.com/PlatinumTokenCrypto/Coin.git
+git clone https://github.com/CryptArc/Coin.git
 
 cd Coin
 
